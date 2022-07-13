@@ -1,0 +1,78 @@
+.navBar{
+    width: 100%;
+    height: 60px;
+    background-color: aquamarine;
+    display: flex;
+}
+a{
+    text-decoration: none;
+}
+.side-bar ul{
+    list-style: none;
+    position: relative;
+    left: -40px;
+}   
+.side-bar ul li {
+     padding: 10px 100px 10px 10px ;
+     background-color: bisque;
+     border-radius: 24px;
+     width: 100%;
+
+}
+.side-bar ul li i{
+    margin-right: 10px;
+}
+.side-bar ul li a{
+    color: black;
+}
+.takeText textarea{
+    width: 100%;
+    height: 40px;
+    border-radius: 10px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin-top: 30px;
+    border: 0;
+    /* border: 1px solid white; */
+}
+.modalBox{
+    /* display: none; */
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+
+} 
+.modalBox .modalPopup{
+    position: absolute;
+    top: 80px;
+    left: 500px;
+    width: 600px;
+    height: 150px;
+    background-color: aqua;
+    border-radius: 20px;
+    
+}   
+
+.modalBox .modalPopup input,textarea{
+    width: 100%;
+    height: 40px;
+    border-radius: 15px;
+    padding: 10px 10px;
+    font-size: 1rem;
+    box-shadow: 0 3px 5px rgba(0,0,0,0.2);
+    overflow: hidden;
+    margin-top: 30px;
+    border: 0;
+
+}
+.modalBox .modalPopup button{
+    float: right;
+}
+
+
+
+
